@@ -76,3 +76,12 @@ Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
 
 ![Resultados](./imagenes/imagen_moran_c.jpg "Grafica de correlacion de moran-lisa para la UPL18")
 
+
+- A continuacion se muestra la Frecuencia_upls_bogota en la cual tenemos como es su distribuciones de frecuencia y vemos que la UPL25 es la mas frecuente con mas de 104775 valoes en la ciudad de bogota.
+
+![Resultados](./imagenes/Frecuencia_upls_bogota.jpg "Frecuencia de valores en UPLs en Bogotá")
+
+- Aqui tenemos un mapa de calor  para esa la cantidad de ofertas en bogota.
+
+![Resultados](./imagenes/Mapa_calor_oferte_bogota.jpg "Mapa de Calor de Cantidad Oferta en Bogotá")
+
