@@ -53,7 +53,7 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
    - Rango de fechas plausibles (Fecha mínima: 2020-04-14, Fecha máxima: 2022-07-16)
 
 ### Estadísticos Descriptivos
-
+- **Montos (`transaction_amount`)**  
 
 
 
