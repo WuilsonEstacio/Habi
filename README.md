@@ -12,7 +12,7 @@ Este Documento describe el proceso para solucion de la prueba de Habi **extracio
 4. [Exploración y Evaluación de Datos (EDA)](#exploración-y-evaluación-de-datos-eda)  
    - [Calidad de Datos](#calidad-de-datos)  
    - [Estadísticos Descriptivos](#estadísticos-descriptivos)
-     
+5. [Resultados](#resultados)
 ---
 
 ## Introducción
@@ -67,5 +67,12 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
   
 ![Estadísticos Descriptivos](./imagenes/correlacion_precio.png "Correlacion de sperman de las variables con respecto al precio")
 
+---
 
+## Resultados
+Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
+- Dado la capacidad de procesamiento se trabajo con la UPL18, Donde el Moran's I observado es: 0.026779042642575197 y el p-value aproximado: 0.001.
+- Dado los resultados para la UPL18 vemos el valor observado del indice de moran indica una autocorrelacion espacial dabil, lo que significa que no hay una fuerte tendencia a quevalores similares(altos o bajos) esten agrupados espacial,emte, adicionalmente, el p value  indica significancia estadistica  del indice de moran, en otras palabras indica que hay evidencia para sugerir que existe algun tipo de patron espacial en los datos.
+
+![Resultados](./imagenes/imagen_moran_c.jpg "Grafica de correlacion de moran-lisa para la UPL18")
 
