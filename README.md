@@ -9,8 +9,10 @@ Este Documento describe el proceso para solucion de la prueba de Habi **extracio
 1. [Introducción](#introducción)  
 2. [Objetivo](#objetivo)  
 3. [Alcance y Definiciones](#alcance-y-definiciones)  
-4. [Exploración y Evaluación de Datos (EDA)](#exploración-y-evaluación-de-datos-eda)
-
+4. [Exploración y Evaluación de Datos (EDA)](#exploración-y-evaluación-de-datos-eda)  
+   - [Calidad de Datos](#calidad-de-datos)  
+   - [Estadísticos Descriptivos](#estadísticos-descriptivos)
+     
 ---
 
 ## Introducción
@@ -25,9 +27,32 @@ El contenido de esta carpeta esta compuesto de la siguiente forma:
 ---
 ## Objetivo
 Generar un pipeline de descarga y ejecucion automatico.
-Identificar cuantas oferttas inmoviliares existen por upl en Bogota, y graficar,
+Identificar cuantas oferttas inmoviliares existen por upl en Bogota, y graficar.
 Ver el indice de mora y lisa para Bogota por precio y ver si hay correlacion espacial.
 Generar un modelo para predecir los precios de las viviendas.
+
+---
+## Alcance y Definiciones
+- **EPSG** las EPSG  4686 es la proyectada y la 4326 es geografica y la 3116 esta en metros
+
+---
+
+## Exploración y Evaluación de Datos (EDA)
+Durante esta fase, se realizaron **descriptivos** y **validaciones** de calidad para comprender el comportamiento de los datos.
+
+### Muestreo de los Datos
+Se trabajó para los primeros puntos se trabajo con el total de los datos pero por capacidad de procesamiento y tiempo de ejecucion 
+en la parte del eda solo se trabajo con una muestra para la prueba y para el resultado del indice de moran se trabajo solo con el codigo upl 18. 
+
+### Calidad de Datos
+1. **Valores Nulos / Faltantes**  
+   - Si identificaron valores nulos a nivel de registro. a demas de identificacion de duplicados en las variables
+   - algunos se corriguieron otras variables se omitieron dado que no trabajariamos con ellas.
+   - 
+
+3. **Consistencia en fechas**
+   - Rango de fechas plausibles (Fecha mínima: 2020-04-14, Fecha máxima: 2022-07-16)
+
 
 
 
