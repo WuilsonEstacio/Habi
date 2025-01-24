@@ -106,7 +106,6 @@ Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
    - se hace un analisis dentro del modelo para ver que tanta importancia tiene la variable tiempo en el y se observa que se puede omotir y los resultados seran los mismos.
 ### 3. Generacion de Indice Moran.
    - Se observa una correlacion espacial debil pero significativa. esto nosda una idea de que la correlacion espacial puede aumentar al tomar toda la base pero no va a umentar mucho esta correlacion espacial de precio de vivienda.
-   - 
 ### 4. Sugerencias.
    - Se suguiere estos temas espaciales trabajar en Azure o AWS, esto por su alto consumo en memoria y tiempos, asi con estos des ambientes de desarrollo esto se resolveria en parte.
    - Otra sugerencia para graficas y analisis de modelos espaciales es trabajar arn Arcgis-pro, y si gusta una conbinacion de Arcgis_pro con python para una automatizacion. y automatizar con Airflow o Datafractory.
