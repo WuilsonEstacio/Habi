@@ -20,4 +20,7 @@ En el marco de esta prueba tecnica se facilitan los link de acceso donde se debe
 Generar un pipeline de descarga y ejecucion automatico.
 Identificar cuantas oferttas inmoviliares existen por upl en Bogota, y graficar,
 Ver el indice de mora y lisa para Bogota por precio y ver si hay correlacion espacial.
+Generar un modelo para predecir los precios de las viviendas.
+
+
 
