@@ -48,10 +48,11 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
 1. **Valores Nulos / Faltantes**  
    - Si identificaron valores nulos a nivel de registro. a demas de identificacion de duplicados en las variables
    - algunos se corriguieron otras variables se omitieron dado que no trabajariamos con ellas.
-   - 
 
 3. **Consistencia en fechas**
    - Rango de fechas plausibles (Fecha mínima: 2020-04-14, Fecha máxima: 2022-07-16)
+
+### Estadísticos Descriptivos
 
 
 
