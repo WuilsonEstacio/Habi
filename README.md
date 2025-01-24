@@ -14,6 +14,8 @@ Este Documento describe el proceso para solucion de la prueba de Habi **extracio
    - [Estadísticos Descriptivos](#estadísticos-descriptivos)
 5. [Resultados](#resultados)
 6. [Notas](#notas)
+7. [Conclusiones](#conclusiones)
+
 ---
 
 ## Introducción
@@ -73,7 +75,7 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
 ## Resultados
 Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
 - Dado la capacidad de procesamiento se trabajo con la UPL18, Donde el Moran's I observado es: 0.026779042642575197 y el p-value aproximado: 0.001.
-- Dado los resultados para la UPL18 vemos el valor observado del indice de moran indica una autocorrelacion espacial dabil, lo que significa que no hay una fuerte tendencia a quevalores similares(altos o bajos) esten agrupados espacial,emte, adicionalmente, el p value  indica significancia estadistica  del indice de moran, en otras palabras indica que hay evidencia para sugerir que existe algun tipo de patron espacial en los datos.
+- Dado los resultados para la UPL18 vemos el valor observado del indice de moran indica una autocorrelacion espacial debil, lo que significa que no hay una fuerte tendencia a quevalores similares(altos o bajos) esten agrupados espacial,emte, adicionalmente, el p value  indica significancia estadistica  del indice de moran, en otras palabras indica que hay evidencia para sugerir que existe algun tipo de patron espacial en los datos.
 
 ![Resultados](./imagenes/imagen_moran_c.jpg "Grafica de correlacion de moran-lisa para la UPL18")
 
@@ -91,3 +93,16 @@ Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
 ## Notas
 - Dado algunas incompatibilidades entre las librerias numpy, sklearn, fue necesario generar el indice de moran de forma manual basandonos en su formula, la cual parte de ella se muestra en la siguiente imagen.
 ![Notas](./imagenes/moran_formula.png "Formula indice de Moran.")
+- Se hace necesario pasar por diferentes EPSG para que los datos espaciales crucen de mejor manera.
+
+--- 
+## Conclusiones
+
+### 1. Generacion de Pipelines.
+   - Se observa en el codigo Prueba_Data_Science_solver que es posible leer las bases desde las fuentes sin necesidad de descargarlas o tenerlas guardadas en el disco.
+### 2. Generacion de Modelo.
+   - Se hace una exploracion y limpiesa previa de las variables y verifica que variables son o no de importancia, antes de iniciar el modelo
+   - Se ajusta lo mas posible la grilla de hiper parametros y escoge las variables con mayores estadisticas para la prediccion de modelo, aunque este no fue excelente hay muchas mas    posibilidades de mejora con otros modelos como xgboost o redes neuronales. o introduciendo mas variables de importancia.
+   - se hace un analisis dentro del modelo para ver que tanta importancia tiene la variable tiempo en el y se observa que se puede omotir y los resultados seran los mismos.
+### 3. Generacion de Indice Moran.
+   - Se observa una correlacion espacial debil pero significativa. esto nosda una idea de que la correlacion espacial puede aumentar al tomar toda la base pero no va a umentar mucho esta correlacion espacial de precio de vivienda
