@@ -53,7 +53,10 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
    - Rango de fechas plausibles (Fecha mínima: 2020-04-14, Fecha máxima: 2022-07-16)
 
 ### Estadísticos Descriptivos
-- **Montos (`transaction_amount`)**  
+- **Se encintraron las siguientes distribuciones para la cuidad de bogota, referentes a inmuebles**
+![Estadísticos Descriptivos](./imagenes/bano_desc.png "Distribución de Tipos de cantidad de baños en las casa de Bogotá")
+![Estadísticos Descriptivos](./imagenes/inmuebles_desc.png "Distribución de Tipos de Inmuebles en Bogotá")
+![Estadísticos Descriptivos](./imagenes/negocios_desc.png "Distribución de Tipos de negocio en Bogotá")
 
 
 
