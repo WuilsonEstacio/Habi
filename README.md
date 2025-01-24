@@ -13,6 +13,7 @@ Este Documento describe el proceso para solucion de la prueba de Habi **extracio
    - [Calidad de Datos](#calidad-de-datos)  
    - [Estadísticos Descriptivos](#estadísticos-descriptivos)
 5. [Resultados](#resultados)
+6. [Notas](#notas)
 ---
 
 ## Introducción
@@ -85,3 +86,8 @@ Acontinuacion se muestra un resumen visual de algunos de los puntos de interes.
 
 ![Resultados](./imagenes/Mapa_calor_oferte_bogota.jpg "Mapa de Calor de Cantidad Oferta en Bogotá")
 
+---
+
+## Notas
+- Dado algunas incompatibilidades entre las librerias numpy, sklearn, fue necesario generar el indice de moran de forma manual basandonos en su formula, la cual parte de ella se muestra en la siguiente imagen.
+![Notas](./imagenes/moran_formula.png "Formula indice de Moran.")
