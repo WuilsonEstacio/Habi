@@ -21,8 +21,8 @@ En el marco de esta prueba tecnica se facilitan los link de acceso donde se debe
 El contenido de esta carpeta esta compuesto de la siguiente forma:
 1. Data, alli descargara algunos archivos que llega a necesitar.
 2. Imagenes: esta contiene las imagenes generadas por el codigo.
-3. habi. contiene archivos de la realizacion de algunas pruebas y graficas realizadas con Qgis
-4. Scrip este contien el scrip que contiene el desarrollo de los puntos planteados, sus graficas y notas.
+3. habi: contiene archivos de la realizacion de algunas pruebas y graficas realizadas con Qgis
+4. Scrip este contien el scrip que contiene el desarrollo de los puntos planteados, sus graficas y notas. el codigo tiene como nombre Prueba_Data_Science_solver.ipynb
    
 ---
 ## Objetivo
