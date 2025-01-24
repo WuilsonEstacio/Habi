@@ -63,8 +63,8 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
 - 
 ![Estadísticos Descriptivos](./imagenes/tipo_inmueble_tipo_negocio.png "Relación entre Tipo de Inmueble y Tipo de Negocio")
 
-- Para antes de generar el modelo se tuvo que mirar como es la correlacion dde las variables respecto a nuestra variable target en este caso precio, su correlacion con spearman
-  es la de la siguiente grafica, donde se debieron omitir en un principio las de muy alta correlacion y de correlacion casi nula
+- Para antes de generar el modelo se tuvo que mirar como es la correlacion dde las variables respecto a nuestra variable target en este caso precio, su correlacion con spearman es la de la siguiente grafica, donde se debieron omitir en un principio las de muy alta correlacion y de correlacion casi nula
+  
 ![Estadísticos Descriptivos](./imagenes/correlacion_precio.png "Correlacion de sperman de las variables con respecto al precio")
 
 
