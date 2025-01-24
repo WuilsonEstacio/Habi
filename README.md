@@ -58,5 +58,8 @@ en la parte del eda solo se trabajo con una muestra para la prueba y para el res
 ![Estadísticos Descriptivos](./imagenes/inmuebles_desc.png "Distribución de Tipos de Inmuebles en Bogotá")
 ![Estadísticos Descriptivos](./imagenes/negocios_desc.png "Distribución de Tipos de negocio en Bogotá")
 
+- Esto nos genera una idea de como estan las habitas en bogota, donde el 80% de las habitas tienen entre 2 y 3 baños.
+- El 70.4%  de los inmuebles en Bogota en este dataset estan para la venta y el 29.6% estan para arrendar. y el 83% de estos inmueblres son apartamento.
 
+![Estadísticos Descriptivos](./imagenes/tipo_inmueble_tipo_negocio.png "Relación entre Tipo de Inmueble y Tipo de Negocio")
 
